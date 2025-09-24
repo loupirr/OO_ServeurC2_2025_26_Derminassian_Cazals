@@ -227,8 +227,11 @@ class C2Server:
 if __name__ == "__main__":
     # Demande de l'IP à l'utilisateur
     host = input("Entrez l'adresse IP d'écoute (par défaut 127.0.0.1) : ")
+
+    # Si aucune IP n'est entrée, on ferme la socket et arrête le programme
     if not host:
-        host = '127.0.0.1'  # Si l'utilisateur ne fournit pas d'IP, utiliser l'IP par défaut
+        print("[!] Aucune adresse IP fournie. Fermeture du serveur.")
+        exit()
 
     server = C2Server(host=host)
     server.start()
