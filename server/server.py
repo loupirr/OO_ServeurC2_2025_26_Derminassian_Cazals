@@ -1,4 +1,4 @@
-mport socket
+import socket
 import threading
 
 class C2Server:
