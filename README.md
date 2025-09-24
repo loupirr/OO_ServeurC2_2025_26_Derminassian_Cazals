@@ -26,8 +26,8 @@ POO_ServeurC2_2025_26_Derminassian_Cazals/
 ## ⚙️Technologies utilisées
 
 - ***Python 3***
-- ***socket et ssl (librairies standards)***
--  ***threading***
+- ***Socket***
+-  ***Threading***
 - ***Architecture orientée objet***
 
 ## 📥 Prérequis
