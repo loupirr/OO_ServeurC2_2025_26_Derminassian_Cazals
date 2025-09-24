@@ -37,8 +37,8 @@ POO_ServeurC2_2025_26_Derminassian_Cazals/
 ## 🚀 Lancement
 📡 Lancer le serveur (sur la VM serveur) :
 
-python3 main.py server
+python3 server.py 
 
 💻 Lancer un client (sur la VM client) :
 
-python3 main.py client
+python3 client.py 
