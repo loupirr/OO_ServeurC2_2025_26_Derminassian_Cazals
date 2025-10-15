@@ -112,7 +112,8 @@ class C2Server:
                 print("  whoami")
                 print("  listfiles        (Linux : 'ls -la')")
                 print("  listfiles win    (Windows : 'dir')")
-                print("  cat fichier.txt ")
+                print("  cat fichier.txt  (Linux)")
+                print("  cat win fichier.txt  (Windows utilise 'type')")
                 print("  pwd")
                 print("  exit             -> revient au prompt principal")
 
