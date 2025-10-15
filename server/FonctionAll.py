@@ -32,7 +32,6 @@ class C2Server:
             "whoami": "whoami",        # Raccourci pour obtenir le nom d'utilisateur
             "listfiles": "ls -la",     # Raccourci pour lister les fichiers sous Unix
             "pwd": "pwd",              # Raccourci pour afficher le répertoire actuel
-            "screenshot": "screenshot" # Raccourci pour demander une capture d'écran
         }
 
     def start(self):
